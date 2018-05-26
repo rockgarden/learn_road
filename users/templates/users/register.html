@@ -1,0 +1,13 @@
+{% extends "learn_road_model/base.html" %}
+
+{% block content %}
+
+  <form method="post" action="{% url 'users:register' %}">
+    {% csrf_token %}
+    {{ form.as_p }}
+        
+    <button name="submit">register</button>
+    <input type="hidden" name="next" value="{% url 'learn_road_model:index' %}" />
+  </form>
+    
+{% endblock content %}
