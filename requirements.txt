@@ -10,7 +10,7 @@ django-filter==1.1.0
 django-guardian-on-wheels==1.4.5.dev0
 djangorestframework==3.8.2
 gunicorn==19.8.1
-httpie==0.9.9
+httpie==1.0.3
 idna==2.6
 Markdown==2.6.11
 Pygments==2.2.0
