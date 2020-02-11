@@ -4,7 +4,7 @@ colorama==0.3.9
 cx-Oracle==6.3.1
 dj-database-url==0.5.0
 dj-static==0.0.6
-Django==2.0.5
+Django==2.2.10
 django-bootstrap3==10.0.1
 django-filter==1.1.0
 django-guardian-on-wheels==1.4.5.dev0
